@@ -9,7 +9,7 @@ Initial macOS Support|macOS 10.15, Catalina.
 
 # Basic Steps
 
-1. [Download](https://github.com/luchina-gabriel/BASE-EFI-INTEL-DESKTOP-11THGEN-ROCKET-LAKE/releases) the latest release;
+1. [Download](https://github.com/luchina-gabriel/BASE-EFI-INTEL-DESKTOP-12THGEN-ALDER-LAKE/releases) the latest release;
 2. Includes **additional** kexts (for ethernet, audio, etc);
 3. Include the **necessary** ACPI patches (.aml);
 4. Review the special notes;
@@ -126,8 +126,8 @@ Please use [*ProperTree*](https://github.com/corpnewt/ProperTree/archive/refs/he
 
 SMBIOS|Description
 :----|:----
-MacPro7,1|Bacause GPU integrated in 11th gen without support for Apple.
-iMacPro1,1|Bacause GPU integrated in 11th gen without support for Apple.
+MacPro7,1|Bacause GPU integrated in 12th gen without support for Apple.
+iMacPro1,1|Bacause GPU integrated in 12th gen without support for Apple.
 
 # Catalina and older versions of macOS
 
@@ -143,7 +143,7 @@ iMacPro1,1|Bacause GPU integrated in 11th gen without support for Apple.
 	- Please Mapping USB in macOS Catalina before install Big Sur or Newer for best results.
 	- You can use USBMap.command Utility - [USBMap](https://github.com/corpnewt/USBMap).
 - **`AppleXcpmCfgLock`** - Please **`ENABLE`** if you cannot disable`CFG-Lock` in BIOS.
-- Does NOT SUPPORT iGPU in 11th Gen.
+- Does NOT SUPPORT iGPU in 12th Gen.
 - You NEED dGPU (dedicated/discrete GPU (eg. RX 560, 570, 580, 590, RX 5700 XT, etc).
 
 # Special notes [DeviceProperties > Add]
