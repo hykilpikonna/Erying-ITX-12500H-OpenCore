@@ -185,7 +185,7 @@ dk.e1000=0|Disables `com.apple.DriverKit-AppleEthernetE1000` (Apple's DEXT drive
 - Above 4G decoding. 
 	- This must be on, if you can't find the option then add `npci=0x2000` to `boot-args`. 
 	- Do not have both this option and `npci` on `boot-args` enabled at the same time.
-	- 2020+ BIOS Notes: When enabling Above4G, Resizable BAR Support may become an available on some Z490 and newer motherboards. Please ensure this is **`DISABLED`** instead of set to Auto.
+	- When enabling Above4G, Resizable BAR Support may become an available on some motherboards. Please ensure this is **`DISABLED`** instead of set to Auto.
 - Hyper-Threading
 - Execute Disable Bit
 - EHCI/XHCI Hand-off
