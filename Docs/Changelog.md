@@ -1,5 +1,17 @@
 OpenCore Changelog
 ==================
+#### v0.8.4
+- Added checks for `Driver` -> `LoadEarly` in ocvalidate
+- Added `FullNvramAccess` option for tools which require direct access to NVRAM
+- Replaced `SSDT-HV-CPU.dsl` with `SSDT-HV-DEV.dsl` for compatiblity with older macOS versions on Windows 10 and newer
+- Updated builtin zlib library to 1.2.12
+- Changed ocpasswordgen not to print characters on password input
+- Added ProcessKernel utility for testing kext injection based on configs
+- Fixed crash while using `SysReport` on Pentium 4 systems
+- Fixed crash after ExitBootServices() is called while using DEBUG builds and file logging
+- Fixed 32-bit userspace build support on macOS (use High Sierra 10.13 and below)
+- Added basic set of NetworkPkg drivers with HTTP boot support
+
 #### v0.8.3
 - Added ext4 file system driver
 - Added support for macOS 13 DP3 Kernel Collection
