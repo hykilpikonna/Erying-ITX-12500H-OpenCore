@@ -1,5 +1,11 @@
 OpenCore Changelog
 ==================
+#### v0.8.5
+- Updated builtin firmware versions for SMBIOS and the rest
+- Moved CPU objects that exist only in Windows Server 2022 into `SSDT-HV-DEV-WS2022.dsl`
+- Updated Hyper-V device path expansion to support hot add/remove of disks
+- Improved verbose logging during kernel patching
+
 #### v0.8.4
 - Added checks for `Driver` -> `LoadEarly` in ocvalidate
 - Added `FullNvramAccess` option for tools which require direct access to NVRAM

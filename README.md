@@ -4,8 +4,8 @@ Note|Description
 :----|:----
 Initial macOS Support|macOS 10.15, Catalina.
 
-- Opencore version: 0.8.4
-- Release date: 05/09/2022
+- Opencore version: 0.8.5
+- Release date: 04/10/2022 (late 1 day)
 
 # Basic Steps
 
