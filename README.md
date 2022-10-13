@@ -126,8 +126,8 @@ Please use [*ProperTree*](https://github.com/corpnewt/ProperTree/archive/refs/he
 
 SMBIOS|Description
 :----|:----
-MacPro7,1|Bacause GPU integrated in 12th gen without support for Apple.
-iMacPro1,1|Bacause GPU integrated in 12th gen without support for Apple.
+MacPro7,1|Because GPU integrated in 12th gen without support for Apple.
+iMacPro1,1|Because GPU integrated in 12th gen without support for Apple.
 
 # Catalina and older versions of macOS
 
