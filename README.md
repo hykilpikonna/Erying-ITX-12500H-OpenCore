@@ -145,6 +145,7 @@ iMacPro1,1|Because GPU integrated in 12th gen without support for Apple.
 - **`AppleXcpmCfgLock`** - Please **`ENABLE`** if you cannot disable`CFG-Lock` in BIOS.
 - Does NOT SUPPORT iGPU in 12th Gen.
 - You NEED dGPU (dedicated/discrete GPU (eg. RX 560, 570, 580, 590, RX 5700 XT, etc).
+- **`SetupVirtualMap`** - Please **`ENABLE`** if you stuck in Early boot.
 
 # Special notes [DeviceProperties > Add]
 
