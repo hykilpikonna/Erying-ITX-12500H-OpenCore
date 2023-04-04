@@ -1,5 +1,13 @@
 OpenCore Changelog
 ==================
+#### v0.9.1
+- Fixed long comment printing for ACPI patches, thx @corpnewt
+- Added sample config for VS Code source level debugging with `gdb`
+- Updated builtin firmware versions for SMBIOS and the rest
+- Added GOP memory caching report to `SysReport`
+- Implemented `GopBurstMode` quirk for faster GOP operation on older firmware
+- Fixed `ThirdPartyDrives` quirk on macOS 13.3 and above
+
 #### v0.9.0
 - Resolved issues with verbose boot log appearing over picker graphics
 - Added version number to EnableGop UI section, so tool builders can track it
