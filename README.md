@@ -23,6 +23,7 @@ Tested on macOS 13.0 Ventura
 * Audio: ALC897
 * Ethernet: RTL8125 + RTL8168/8111
 * WiFi: Intel AX210
+* Chipset: B660i
 
 ## Features
 
