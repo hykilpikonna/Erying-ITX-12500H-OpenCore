@@ -844,7 +844,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>3841</integer>
 			<key>ROM</key>
 			<data>8LR5Nk5V</data>
 			<key>SpoofVendor</key>
