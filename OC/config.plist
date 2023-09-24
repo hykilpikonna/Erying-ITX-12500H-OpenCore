@@ -5,7 +5,40 @@
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
-		<array/>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Read the comment in dsl sample</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-AWAC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Read the comment in dsl sample</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-EC-USBX-DESKTOP.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Read the comment in dsl sample</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PLUG-ALT.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Read the comment in dsl sample</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-RHUB.aml</string>
+			</dict>
+		</array>
 		<key>Delete</key>
 		<array/>
 		<key>Patch</key>
@@ -641,23 +674,23 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>XXXXXXXXXXXXXXXXX</string>
+			<string>F5K008609GUK3F7JA</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>qqqqqqqq</data>
+			<data>8LR5Nk5V</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>SMBIOS-PRODUCT-NAME</string>
+			<string>MacPro7,1</string>
 			<key>SystemSerialNumber</key>
-			<string>XXXXXXXXXXXX</string>
+			<string>F5KC90Q5P7QM</string>
 			<key>SystemUUID</key>
-			<string>XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</string>
+			<string>8598F622-E947-465E-8888-D05AB1D3D92B</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
