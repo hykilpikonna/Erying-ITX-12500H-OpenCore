@@ -2,12 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key># BASE EFI INTEL 12th ALDER LAKE (doest not support iGPU) - RELEASE Version</key>
-	<string></string>
-	<key># DISCORD: https://discord.universohackintosh.com</key>
-	<string></string>
-	<key># BY: https://luchina.com.br</key>
-	<string></string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -86,7 +80,7 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key># PciRoot(0x0)/Pci(0x1B,0x3)/Pci(0x0,0x0)</key>
+			<key># PciRoot(0x0)/Pci(0x1B,0x2)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>device-id</key>
 				<data>8hUAAA==</data>
@@ -95,7 +89,7 @@
 				<key>model</key>
 				<string>Intel(R) Ethernet Controller i225-LM</string>
 			</dict>
-			<key># PciRoot(0x0)/Pci(0x1B,0x2)/Pci(0x0,0x0)</key>
+			<key># PciRoot(0x0)/Pci(0x1B,0x3)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>device-id</key>
 				<data>8hUAAA==</data>
@@ -195,6 +189,42 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCSuperIO</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>applealc.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AppleALC</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>intelmausi.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IntelMausi</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -502,10 +532,10 @@
 		<dict>
 			<key>AdviseFeatures</key>
 			<false/>
-			<key>MaxBIOSVersion</key>
-			<false/>
 			<key>MLB</key>
 			<string>XXXXXXXXXXXXXXXXX</string>
+			<key>MaxBIOSVersion</key>
+			<false/>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -728,6 +758,8 @@
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
+			<key>#JoinInsertglyt</key>
+			<false/>
 			<key>AppleAudio</key>
 			<false/>
 			<key>AppleBootPolicy</key>
@@ -766,8 +798,6 @@
 			<false/>
 			<key>UnicodeCollation</key>
 			<false/>
-			<key>#JoinInsertglyt</key>
-			<false/>
 		</dict>
 		<key>Quirks</key>
 		<dict>
@@ -781,9 +811,9 @@
 			<false/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
-			<key>ForgeUefiSupport</key>
-			<false/>
 			<key>ForceOcWriteFlash</key>
+			<false/>
+			<key>ForgeUefiSupport</key>
 			<false/>
 			<key>IgnoreInvalidFlexRatio</key>
 			<false/>
