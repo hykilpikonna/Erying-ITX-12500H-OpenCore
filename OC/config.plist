@@ -299,7 +299,7 @@
 			<key>ProtectSecureBoot</key>
 			<false/>
 			<key>ProtectUefiServices</key>
-			<true/>
+			<false/>
 			<key>ProvideCustomSlide</key>
 			<true/>
 			<key>ProvideMaxSlide</key>
@@ -701,7 +701,7 @@
 			<key>DisableIoMapper</key>
 			<true/>
 			<key>DisableIoMapperMapping</key>
-			<false/>
+			<true/>
 			<key>DisableLinkeditJettison</key>
 			<true/>
 			<key>DisableRtcChecksum</key>
@@ -1039,7 +1039,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
-			<integer>3841</integer>
+			<integer>0</integer>
 			<key>ROM</key>
 			<data>8LR5Nk5V</data>
 			<key>SpoofVendor</key>
