@@ -3,6 +3,10 @@
 OpenCore 0.9.5
 Tested on macOS 13.0 Ventura
 
+**!!!!IMPORTANT!!!!**
+
+The current version of OpenCore doesn't work with 12500H very well. It only passes the boot.efi handoff stage if you either disable Hyperthreading or disable all E-cores. In my testing, disabling Hyperthreading lead to better performance. (Track issue: https://github.com/dortania/bugtracker/issues/336)
+
 ## Hardware Configuration
 
 | Part | Name | Price (+VAT) |
@@ -28,14 +32,14 @@ Tested on macOS 13.0 Ventura
 ## Features
 
 - [ ] CPU Power Management (Not Tested)
-- [ ] NVRAM
-- [ ] AMD Graphics
+- [x] NVRAM
+- [x] AMD Graphics
   - [ ] DRM (Tested with Amazon Prime)
 - [ ] Sleep/Wake (Low Priority)
   - [ ] Stay Asleep
   - [ ] Features Normal After Wake
-- [ ] 📶 Ethernet
-- [ ] 📶 Intel AX210 WiFi & Bluetooth
+- [x] 📶 2 Ethernet Adaptors (2.5G + 1G)
+- [x] 📶 Intel AX210 WiFi & Bluetooth
 - [ ] 🔌 USB Ports
-- [ ] 💬 iMessage
-- [ ] 🎧 Realtek ALC662 Audio
+- [x] 💬 iMessage
+- [x] 🎧 Realtek ALC897 Audio
