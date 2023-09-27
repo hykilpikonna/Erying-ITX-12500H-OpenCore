@@ -1,5 +1,7 @@
 # Erying ITX 12th-Gen OpenCore
 
+<img width="1816" alt="image" src="https://github.com/hykilpikonna/Erying-ITX-12-OpenCore/assets/22280294/c249a8f0-0cd2-4413-a987-2a334d3a9f79">
+
 OpenCore 0.9.5
 Tested on macOS 13.0 Ventura
 
