@@ -1,7 +1,13 @@
-# Erying ITX 12th-Gen OpenCore
+# Erying ITX i5-12500H OpenCore
+
+<img width="1816" alt="image" src="https://github.com/hykilpikonna/Erying-ITX-12-OpenCore/assets/22280294/c249a8f0-0cd2-4413-a987-2a334d3a9f79">
 
 OpenCore 0.9.5
 Tested on macOS 13.0 Ventura
+
+**!!!!IMPORTANT!!!!**
+
+The current version of OpenCore doesn't work with 12500H very well. It only passes the boot.efi handoff stage if you either disable Hyperthreading or disable all E-cores. In my testing, disabling Hyperthreading lead to better performance. (Track issue: https://github.com/dortania/bugtracker/issues/336)
 
 ## Hardware Configuration
 
@@ -25,17 +31,23 @@ Tested on macOS 13.0 Ventura
 * WiFi: Intel AX210
 * Chipset: B660i
 
+## Necessary BIOS Settings
+
+* Disable Advanced > CPU > Hyperthreading
+* Disable Advanced > Graphics > VT-d (Otherwise there will be a white square during boot stage)
+* Disable Security > Secure Boot
+
 ## Features
 
 - [ ] CPU Power Management (Not Tested)
-- [ ] NVRAM
-- [ ] AMD Graphics
+- [x] NVRAM
+- [x] AMD Graphics
   - [ ] DRM (Tested with Amazon Prime)
 - [ ] Sleep/Wake (Low Priority)
   - [ ] Stay Asleep
   - [ ] Features Normal After Wake
-- [ ] 📶 Ethernet
-- [ ] 📶 Intel AX210 WiFi & Bluetooth
+- [x] 📶 2 Ethernet Adaptors (2.5G + 1G)
+- [x] 📶 Intel AX210 WiFi & Bluetooth
 - [ ] 🔌 USB Ports
-- [ ] 💬 iMessage
-- [ ] 🎧 Realtek ALC662 Audio
+- [x] 💬 iMessage
+- [x] 🎧 Realtek ALC897 Audio
