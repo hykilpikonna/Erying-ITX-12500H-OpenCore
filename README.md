@@ -29,6 +29,12 @@ The current version of OpenCore doesn't work with 12500H very well. It only pass
 * WiFi: Intel AX210
 * Chipset: B660i
 
+## Necessary BIOS Settings
+
+* Disable Advanced > CPU > Hyperthreading
+* Disable Advanced > Graphics > VT-d (Otherwise there will be a white square during boot stage)
+* Disable Security > Secure Boot
+
 ## Features
 
 - [ ] CPU Power Management (Not Tested)
