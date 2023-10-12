@@ -41,8 +41,6 @@ Since macOS Sonoma, DW1560 require special patching through OpenCore Legacy Patc
 3. You should see the "Modern Wireless" patch. Select "Start Root Patching"
 4. Reboot, done!
 
-Please refer to [this guide](https://github.com/5T33Z0/OC-Little-Translated/blob/main/14_OCLP_Wintel/WIiFi_Sonoma.md) if you have any questions.
-
 ## Necessary BIOS Settings
 
 * Disable Advanced > CPU > Hyperthreading
