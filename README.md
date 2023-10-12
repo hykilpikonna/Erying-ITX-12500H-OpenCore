@@ -2,7 +2,6 @@
 
 <img width="2043" alt="image" src="https://github.com/hykilpikonna/Erying-ITX-12500H-OpenCore/assets/22280294/bdacaaa1-4d7c-4eed-a8c3-2167f4945d12">
 
-
 OpenCore 0.9.5
 Tested on macOS 14.0 Sonoma
 
@@ -29,17 +28,8 @@ The current version of OpenCore doesn't work with 12500H very well. It only pass
 
 * Audio: ALC897
 * Ethernet: RTL8125 + RTL8168/8111
-* WiFi: BCM94352Z DW1560
+* WiFi: Intel AX210
 * Chipset: B660i
-
-### Note: Special Instruction for DW1560 on Sonoma
-
-Since macOS Sonoma, DW1560 require special patching through OpenCore Legacy Patcher. All of the systemless OpenCore config modifications have been completed, you just have to do the following:
-
-1. Download OCLP: https://github.com/dortania/OpenCore-Legacy-Patcher/releases
-2. Open it, select "Post-Install Root Patch"
-3. You should see the "Modern Wireless" patch. Select "Start Root Patching"
-4. Reboot, done!
 
 ## Necessary BIOS Settings
 
@@ -57,8 +47,12 @@ Since macOS Sonoma, DW1560 require special patching through OpenCore Legacy Patc
   - [ ] Stay Asleep
   - [ ] Features Normal After Wake
 - [x] 📶 2 Ethernet Adaptors (2.5G + 1G)
-- [x] 📶 Broadcom BCM94352Z DW1650 Wifi & Bluetooth
-  - [x] Airport (AirDrop & Continuity)
+- [x] 📶 Intel AX210 Wifi & Bluetooth
+  - [x] Wifi-6 Support 
 - [ ] 🔌 USB Ports
 - [x] 💬 iMessage
 - [x] 🎧 Realtek ALC897 Audio
+
+### Note on Wifi-6
+
+Thanks to this guide on compiling itlwm with wifi6: https://github.com/OpenIntelWireless/itlwm/issues/897
