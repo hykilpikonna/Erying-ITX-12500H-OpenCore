@@ -615,7 +615,7 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>itlwm.kext</string>
+				<string>itlwm-wifi6.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
