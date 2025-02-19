@@ -2,8 +2,14 @@
 
 <img width="2043" alt="image" src="https://github.com/hykilpikonna/Erying-ITX-12500H-OpenCore/assets/22280294/bdacaaa1-4d7c-4eed-a8c3-2167f4945d12">
 
-OpenCore 0.9.5
-Tested on macOS 14.0 Sonoma
+<img width="1284" alt="image" src="https://github.com/user-attachments/assets/e79e378e-892f-43be-a6c6-938df85093d6" />
+
+OpenCore 1.0.3  
+Tested on macOS 15.3 Sonoma
+
+**!!!!IMPORTANT!!!!**
+
+Before upgrading or installing macOS 14.4 and above, please edit the `config.plist` and set `SecureBootModel` to `Disabled`. ([Link](https://www.reddit.com/r/hackintosh/comments/1aevw0p/updating_to_144_beta_securebootmodel_disabled/))
 
 **!!!!IMPORTANT!!!!**
 
